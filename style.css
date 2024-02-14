@@ -135,8 +135,8 @@ body {
 .kokoro-container,
         .kokoro-info-container,
         .kokoro {
-            opacity: 0; /* Set initial opacity to 0 */
-            transition: opacity 0.2s ease; /* Add transition for smooth effect */
+            opacity: 0; 
+            transition: opacity 0.2s ease; 
         }
 .kokoro-container {
     position: absolute;
@@ -513,32 +513,22 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
     padding: 10px 20px;
-    background-color: black; /* Button background color */
-    color: white; /* Text color */
+    background-color: black; 
+    color: white; 
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50px; /* Adjust the value to control the roundness */
-    border: 2px solid white; /* White border */
+    border-radius: 50px; 
+    border: 2px solid white; 
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease; 
   
 
 }
 .custom-button:hover {
-    background-color: white; /* Darker color on hover */
+    background-color: white; 
 color: black;
 }
-/*
-.symbol-resume {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    margin-top: -25%;
-    border-radius: 50%;
-    margin-left: -150px;
-
-}*/
 
 .svg {
     margin-top: -18%;
